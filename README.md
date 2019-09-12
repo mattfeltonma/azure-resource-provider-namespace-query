@@ -20,6 +20,4 @@ This Python solution can be used to query a resource provider namespace for all 
 
 Ensure the appropriate Python modules are installed.
 
-python azure_policy_evaluate.py --tenantname TENANTNAME --clientid CLIENTID --clientsecret CLIENTSECRET --subscriptionid SUB_ID [--logfile]
-
 python policy.py --tenantname TENANT_NAME --subscriptionid SUBSCRIPTION_ID --clientid CLIENT_ID --clientsecret CLIENT_SECRET --resourceprovider RESOURCE_PROVIDER_NAMESPACE --exportfile FULL_PATH_TO_EXPORT_FILE
