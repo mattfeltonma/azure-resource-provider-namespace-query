@@ -35,8 +35,7 @@ def obtain_access_token(tenantname,scope,client_id, client_secret):
     app = msal.ConfidentialClientApplication(
         client_id = client_id,
         client_credential = client_secret,
-        authority='https://login.microsoftonline.com/' + tenantname,
-        verify=False
+        authority='https://login.microsoftonline.com/' + tenantname
     )
     result = app.acquire_token_for_client(scope)
 
